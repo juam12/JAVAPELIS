@@ -12,7 +12,7 @@ import java.sql.Timestamp;
  */
 public class Venta {
      private int _codigoVenta;
-    private Usuario _cliente;
+    private int _idUsuario;
     private Timestamp _fecha;
 
     public int getCodigoVenta() {
@@ -23,20 +23,20 @@ public class Venta {
         this._codigoVenta = _codigoVenta;
     }
 
-    public Usuario getCliente() {
-        return _cliente;
-    }
-
-    public void setCliente(Usuario _cliente) {
-        this._cliente = _cliente;
-    }
-
     public Timestamp getFecha() {
         return _fecha;
     }
 
     public void setFecha(Timestamp _fecha) {
         this._fecha = _fecha;
+    }
+
+    public int getIdUsuario() {
+        return _idUsuario;
+    }
+
+    public void setIdUsuario(int _idUsuario) {
+        this._idUsuario = _idUsuario;
     }
     
     

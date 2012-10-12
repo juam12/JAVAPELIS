@@ -12,8 +12,6 @@ public class DetalleVenta {
     private int _codigoVenta;
     private int _codigoPelicula;
     private double _cantidad;
-    private Pelicula pelicula;
-    private Venta venta;
 
     public int getCodigoVenta() {
         return _codigoVenta;
@@ -39,22 +37,5 @@ public class DetalleVenta {
         this._cantidad = _cantidad;
     }
 
-    public Pelicula getPelicula() {
-        return pelicula;
-    }
-
-    public void setPelicula(Pelicula pelicula) {
-        this.pelicula = pelicula;
-    }
-
-    public Venta getVenta() {
-        return venta;
-    }
-
-    public void setVenta(Venta venta) {
-        this.venta = venta;
-    }
-    
-    
     
 }
