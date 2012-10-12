@@ -8,7 +8,7 @@ package Modelo;
  *
  * @author Juan
  */
-public class OriginalPeli {
+public class PeliculaOriginal {
     private int idPelicula;
     private String titulo;
     private String descripcion;

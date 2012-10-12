@@ -9,33 +9,34 @@ package Modelo;
  * @author Juan
  */
 public class DetalleVenta {
-    private int _codigoVenta;
-    private int _codigoPelicula;
-    private double _cantidad;
+    private int idVenta;
+    private int idPelicula;
+    private double cantidad;
 
-    public int getCodigoVenta() {
-        return _codigoVenta;
+    public int getIdVenta() {
+        return idVenta;
     }
 
-    public void setCodigoVenta(int _codigoVenta) {
-        this._codigoVenta = _codigoVenta;
+    public void setIdVenta(int idVenta) {
+        this.idVenta = idVenta;
     }
 
-    public int getCodigoPelicula() {
-        return _codigoPelicula;
+    public int getIdPelicula() {
+        return idPelicula;
     }
 
-    public void setCodigoPelicula(int _codigoPelicula) {
-        this._codigoPelicula = _codigoPelicula;
+    public void setIdPelicula(int idPelicula) {
+        this.idPelicula = idPelicula;
     }
 
     public double getCantidad() {
-        return _cantidad;
+        return cantidad;
     }
 
-    public void setCantidad(double _cantidad) {
-        this._cantidad = _cantidad;
+    public void setCantidad(double cantidad) {
+        this.cantidad = cantidad;
     }
+
 
     
 }

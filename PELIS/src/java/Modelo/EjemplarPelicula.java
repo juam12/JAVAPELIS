@@ -11,16 +11,16 @@ package Modelo;
  *
  * @author Juan
  */
-public class Pelicula {
-    private int ejemplar;
+public class EjemplarPelicula {
+    private int idEjemplar;
     private int idPelicula;
     
-    public int getEjemplar() {
-        return ejemplar;
+    public int getIdEjemplar() {
+        return idEjemplar;
     }
 
-    public void setEjemplar(int ejemplar) {
-        this.ejemplar = ejemplar;
+    public void setIdEjemplar(int idEjemplar) {
+        this.idEjemplar = idEjemplar;
     }
 
     public int getIdPelicula() {

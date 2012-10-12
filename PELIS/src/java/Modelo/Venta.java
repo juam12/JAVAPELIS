@@ -11,32 +11,34 @@ import java.sql.Timestamp;
  * @author Juan
  */
 public class Venta {
-     private int _codigoVenta;
-    private int _idUsuario;
-    private Timestamp _fecha;
+     private int idVenta;
+    private int idUsuario;
+    private Timestamp fecha;
 
-    public int getCodigoVenta() {
-        return _codigoVenta;
+    public int getIdVenta() {
+        return idVenta;
     }
 
-    public void setCodigoVenta(int _codigoVenta) {
-        this._codigoVenta = _codigoVenta;
+    public void setIdVenta(int idVenta) {
+        this.idVenta = idVenta;
     }
+
+ 
 
     public Timestamp getFecha() {
-        return _fecha;
+        return fecha;
     }
 
     public void setFecha(Timestamp _fecha) {
-        this._fecha = _fecha;
+        this.fecha = _fecha;
     }
 
     public int getIdUsuario() {
-        return _idUsuario;
+        return idUsuario;
     }
 
     public void setIdUsuario(int _idUsuario) {
-        this._idUsuario = _idUsuario;
+        this.idUsuario = _idUsuario;
     }
     
     

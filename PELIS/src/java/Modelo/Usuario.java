@@ -9,7 +9,7 @@ package Modelo;
  * @author Juan
  */
 public class Usuario {
-     private int idUsuario;
+    private int idUsuario;
     private String nombre;
     private String dni;
     private String telefono;
