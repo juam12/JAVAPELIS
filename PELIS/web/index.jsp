@@ -12,6 +12,16 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <body>
+          <h1>Ingrese un servicio</h1>
+        <div>
+            <form action="Usuario" method="post">
+                <input type="hidden" name="accion" value="Loguin" />
+                <h1>Usuario:</h1><input type="text" name="user" size="100"/></br>
+                <h1>Contraseña:</h1><input type="text" name="password" size="100"/></br>
+                <input type="submit" value="Entrar"/>  
+            </form>
+        </div>
+    </body>
     </body>
 </html>

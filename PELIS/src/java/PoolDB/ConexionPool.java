@@ -17,9 +17,9 @@ import java.util.logging.Logger;
  */
 public class ConexionPool implements IConexionPool{
    protected Stack pool;
-    protected String connectionURL="jdbc:mysql://localhost:3306/javabus";
+    protected String connectionURL="jdbc:mysql://localhost:3306/mydb";
     protected String userName="root";
-    protected String password="33732856bag";
+    protected String password="jmg.35115693";
 
     /**
      * Genera Pool básico de conexión utilizando URL , contraseña y nombre

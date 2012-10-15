@@ -23,15 +23,25 @@ public class UsuarioDB {
       Connection conn= pool.extraerConexion();
       Statement stm = conn.createStatement();
       ResultSet rs;
+      int existe = -1;
         try { 
-            rs=stm.executeQuery(String.format(""));
+            rs=stm.executeQuery(String.format("select count(*) as existe from usuario where user= '%s'and passoword = '%s'",usu.getUser(), usu.getPassoword()));
+            if ( rs.next()) {
+                existe = rs.getInt("existe");
+                //System.out.println("Entro");
+            } 
                           
         }catch (SQLException ex) {
             ex.printStackTrace();    
         }finally{
             pool.liberarConexion(conn);
         }
-        return usuario;   
+        if (existe == 1) {
+            return true;
+        }
+        else {
+            return false;
+        }  
     }
     
 }
